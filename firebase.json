@@ -1,0 +1,31 @@
+{
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-northeast1"
+    }
+  },
+  "emulators": {
+    "hosting": {
+      "port": 5020
+    },
+    "functions": {
+      "port": 5021
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4020
+    },
+    "hub": {
+      "port": 4420
+    },
+    "logging": {
+      "port": 4520
+    }
+  }
+}

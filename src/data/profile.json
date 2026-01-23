@@ -1,0 +1,207 @@
+{
+  "name": "Yuki Tanabe",
+  "socials": {
+    "website": "https://tanabee.dev",
+    "facebook": "https://www.facebook.com/tanabe1986",
+    "twitter": "https://twitter.com/_tanabee",
+    "github": "https://github.com/tanabee",
+    "medium": "https://medium.com/@tanabee",
+    "qiita": "https://qiita.com/tanabee",
+    "linkedin": "https://www.linkedin.com/in/tanabee/",
+    "wantedly": "https://www.wantedly.com/users/17779552"
+  },
+  "experience": [
+    {
+      "period": "2022-08 - present",
+      "title": "VPoE",
+      "company": "CureApp"
+    },
+    {
+      "period": "2019-06 - present",
+      "title": "Google Developer Experts (Firebase, Workspace)",
+      "company": ""
+    },
+    {
+      "period": "2022-03 - 2022-05",
+      "title": "Google for Startups Accelerator Mentor",
+      "company": "",
+      "details": [
+        "Join GFSA program as Mentor"
+      ]
+    },
+    {
+      "period": "2019-11 - 2022-07",
+      "title": "Vice President",
+      "company": "RPG TEC",
+      "details": [
+        "Develop BigQuery GUI service",
+        "Develop identity resolution SDK",
+        "Develop Online event platform",
+        "Develop Running Tracking app",
+        "Develop Data pipeline",
+        "Develop Livestream application",
+        "Develop Healthcare application",
+        "Develop Matching application",
+        "Technical Advisor"
+      ]
+    },
+    {
+      "period": "2017-07 - 2019-10",
+      "title": "Engineering Manager",
+      "company": "GLOBIS",
+      "details": [
+        "Became the first Scrum Master and installed Scrum to all product teams",
+        "Joined the company as the 3rd engineer and increased the number of engineers to 30",
+        "Improved internal routine work and reduced work by 500 hours per month",
+        "Installed OKR to my department and developed a tool to visualize goals",
+        "Designed a data pipeline of learning data using Google Cloud Platform",
+        "Released a learning platform as a product owner"
+      ]
+    },
+    {
+      "period": "2016-08 - 2017-07",
+      "title": "VR Engineer",
+      "company": "EmbodyMe",
+      "details": [
+        "Joined the startup and released a social VR application for Oculus, HTC Vive"
+      ]
+    },
+    {
+      "period": "2012-04 - 2016-08",
+      "title": "Web Engineer / Lead iOS Engineer",
+      "company": "Yahoo! JAPAN",
+      "details": [
+        "Joined the Yahoo! MAP application renewal project as the iOS development leader",
+        "Released Women's social network app for iOS",
+        "Released an in-house task management service",
+        "Formed a few private teams and released several mobile apps. Achieved one million downloads"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "2009-04 - 2011-03",
+      "degree": "Master of Physics",
+      "school": "The University of Tokyo"
+    }
+  ],
+  "skills": {
+    "licenses": [
+      {
+        "name": "Google Developers Expert",
+        "url": "https://developers.google.com/community/experts/directory/profile/profile-yuki-tanabe"
+      },
+      {
+        "name": "Licensed Scrum Master"
+      },
+      {
+        "name": "Architecting with Google Cloud Platform",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/3YH4RYBXHBU7"
+      },
+      {
+        "name": "Data Engineering on Google Cloud Platform",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/3P72E2BF34VC"
+      }
+    ],
+    "languages": [
+      "JavaScript (Web client, Node.js, Google Apps Script)",
+      "C# (Unity)",
+      "Swift",
+      "Python",
+      "Go",
+      "Objective-C",
+      "PHP"
+    ],
+    "databases": [
+      "MongoDB",
+      "MySQL",
+      "SQLite",
+      "Redis"
+    ],
+    "others": [
+      "Google Cloud Platform",
+      "Firebase",
+      "GitHub",
+      "Google Analytics",
+      "Google Tag Manager"
+    ]
+  },
+  "presentations": [
+    {
+      "date": "2025-12-06",
+      "title": "DevFest 2025 KL ( 🇲🇾 Malaysia )",
+      "coordinates": [
+        101.6869,
+        3.1390
+      ]
+    },
+    {
+      "date": "2025-11-22",
+      "title": "DevFest Tokyo 2025",
+      "coordinates": [
+        139.6503,
+        35.6762
+      ]
+    },
+    {
+      "date": "2024-11-23",
+      "title": "DevFest Pwani 2024 ( 🇰🇪 Kenya )",
+      "coordinates": [
+        39.6682,
+        -4.0435
+      ]
+    },
+    {
+      "date": "2024-10-05",
+      "title": "DevFest Almaty 2024 ( 🇰🇿 Kazakhstan )",
+      "coordinates": [
+        76.8512,
+        43.2220
+      ]
+    },
+    {
+      "date": "2022-12-16",
+      "title": "GDG DevFest Tokyo 2022"
+    },
+    {
+      "date": "2021-12-11",
+      "title": "GDG DevFest Tokyo 2021"
+    },
+    {
+      "date": "2020-10-18",
+      "title": "GDG DevFest Tokyo 2020"
+    },
+    {
+      "date": "2019-12-07",
+      "title": "DevFest Baku 2019 ( 🇦🇿 Azerbaijan )",
+      "coordinates": [
+        49.8671,
+        40.4093
+      ]
+    },
+    {
+      "date": "2019-11-23",
+      "title": "Gave a Hands-on session at DevFest Shikoku 2019",
+      "coordinates": [
+        134.0466,
+        34.3428
+      ]
+    },
+    {
+      "date": "2018-10-04",
+      "title": "Hosted Hands-On for Google Apps Script, took the stage as instructor"
+    },
+    {
+      "date": "2018-09-19",
+      "title": "Gave a presentation at “Google Cloud Next ’18 in Tokyo”"
+    },
+    {
+      "date": "2018-04-03",
+      "title": "Pitched at “Tokyo GAS on GCPUG 2018 Spring”"
+    },
+    {
+      "date": "2014-10-18",
+      "title": "Hosted “iOS 8/Swift study session” and gave a presentation"
+    }
+  ]
+}
