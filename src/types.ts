@@ -1,6 +1,7 @@
 export interface Profile {
   name: string;
   image?: string;
+  contact?: string;
   socials: {
     website: string;
     facebook: string;

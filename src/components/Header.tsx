@@ -15,7 +15,28 @@ const iconMap: { [key: string]: React.ReactNode } = {
 
 export default function Header({ profile }: { profile: Profile }) {
   return (
-    <header className="section" style={{ padding: "4rem 0", display: "flex", alignItems: "center", gap: "2rem" }}>
+    <header className="section" style={{ padding: "4rem 0", display: "flex", alignItems: "center", gap: "2rem", position: "relative" }}>
+      {profile.contact && (
+        <a
+          href={profile.contact}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+          style={{
+            position: "absolute",
+            top: "0",
+            right: "0",
+            gap: "0.5rem",
+            background: "transparent",
+            color: "var(--text-secondary)",
+            border: "1px solid var(--border)",
+            padding: "0.5rem 1rem",
+            fontSize: "0.9rem"
+          }}
+        >
+          Contact me
+        </a>
+      )}
       {profile.image && (
         <img
           src={profile.image}
