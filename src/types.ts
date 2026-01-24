@@ -1,5 +1,6 @@
 export interface Profile {
   name: string;
+  image?: string;
   socials: {
     website: string;
     facebook: string;
@@ -45,4 +46,6 @@ export interface Presentation {
   date: string;
   title: string;
   coordinates?: [number, number]; // [longitude, latitude]
+  countryCode: string;
+  url?: string;
 }

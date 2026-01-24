@@ -4,7 +4,7 @@ export default function Education({ education }: { education: EducationType[] })
   return (
     <section className="section">
       <h2>Education</h2>
-      <div className="grid-2">
+      <div>
         {education.map((edu, index) => (
           <div key={index} className="card">
             <div className="meta">{edu.period}</div>

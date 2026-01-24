@@ -16,6 +16,21 @@ const iconMap: { [key: string]: React.ReactNode } = {
 export default function Header({ profile }: { profile: Profile }) {
   return (
     <header className="section" style={{ textAlign: "center", padding: "4rem 0" }}>
+      {profile.image && (
+        <img
+          src={profile.image}
+          alt={profile.name}
+          style={{
+            width: "120px",
+            height: "120px",
+            borderRadius: "50%",
+            objectFit: "cover",
+            margin: "0 auto 1.5rem",
+            border: "2px solid var(--border)",
+            display: "block"
+          }}
+        />
+      )}
       <h1 style={{ fontSize: "4rem", marginBottom: "1rem", color: "#f4b400" }}>
         {profile.name}
       </h1>

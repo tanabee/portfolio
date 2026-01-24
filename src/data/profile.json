@@ -1,5 +1,6 @@
 {
   "name": "Yuki Tanabe",
+  "image": "/yukitanabe.jpg",
   "socials": {
     "linkedin": "https://www.linkedin.com/in/tanabee/",
     "facebook": "https://www.facebook.com/tanabe1986",
@@ -93,7 +94,7 @@
     "licenses": [
       {
         "name": "Google Developers Expert",
-        "url": "https://developers.google.com/community/experts/directory/profile/profile-yuki-tanabe"
+        "url": "https://g.dev/tanabee"
       },
       {
         "name": "Licensed Scrum Master"
@@ -134,6 +135,7 @@
     {
       "date": "2025-12-06",
       "title": "DevFest 2025 KL ( 🇲🇾 Malaysia )",
+      "url": "https://gdg.community.dev/events/details/google-gdg-kuala-lumpur-presents-devfest-2025-kl-gdg-kl-x-gdg-cloud-kl/cohost-gdg-cloud-kl/",
       "coordinates": [
         101.6869,
         3.1390
@@ -143,6 +145,7 @@
     {
       "date": "2025-11-22",
       "title": "DevFest Tokyo 2025",
+      "url": "https://gdg-tokyo.connpass.com/event/369416/",
       "coordinates": [
         139.6503,
         35.6762
@@ -152,6 +155,7 @@
     {
       "date": "2024-11-23",
       "title": "DevFest Pwani 2024 ( 🇰🇪 Kenya )",
+      "url": "https://gdg.community.dev/events/details/google-gdg-pwani-presents-devfest-pwani-2024/",
       "coordinates": [
         39.6682,
         -4.0435
@@ -161,6 +165,7 @@
     {
       "date": "2024-10-05",
       "title": "DevFest Almaty 2024 ( 🇰🇿 Kazakhstan )",
+      "url": "https://gdg.community.dev/events/details/google-gdg-almaty-presents-google-devfest-almaty-2024/",
       "coordinates": [
         76.8512,
         43.2220

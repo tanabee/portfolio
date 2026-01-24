@@ -18,7 +18,15 @@ export default function Presentations({ presentations }: { presentations: Presen
             <div style={{ minWidth: "120px", color: "var(--text-secondary)", fontSize: "0.9rem", fontWeight: "500" }}>
               {pres.date}
             </div>
-            <div style={{ fontWeight: "500" }}>{pres.title}</div>
+            <div style={{ fontWeight: "500" }}>
+              {pres.url ? (
+                <a href={pres.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                  {pres.title}
+                </a>
+              ) : (
+                pres.title
+              )}
+            </div>
           </div>
         ))}
       </div>
