@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:emulator": "firebase emulators:start",
     "build": "next build",
-    "start": "next start",
+    "start": "firebase emulators:start --log-verbosity=QUIET --only hosting",
+    "kill": "lsof -i:3000,5001 -t | xargs kill",
     "lint": "eslint"
   },
   "dependencies": {
