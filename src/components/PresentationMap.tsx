@@ -6,6 +6,14 @@ import { Presentation } from "@/types";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
+const countryCodeMap: Record<string, string> = {
+  "MYS": "458", // Malaysia
+  "JPN": "392", // Japan
+  "KEN": "404", // Kenya
+  "KAZ": "398", // Kazakhstan
+  "AZE": "031", // Azerbaijan
+};
+
 export default function PresentationMap({ presentations }: { presentations: Presentation[] }) {
   const [isMounted, setIsMounted] = useState(false);
   const [tooltipContent, setTooltipContent] = useState<{ title: string; date: string } | null>(null);
@@ -21,24 +29,29 @@ export default function PresentationMap({ presentations }: { presentations: Pres
 
   return (
     <div style={{ width: "100%", height: "400px", marginBottom: "2rem", background: "var(--surface)", borderRadius: "var(--radius)", border: "1px solid var(--border)", overflow: "hidden", position: "relative" }}>
-      <ComposableMap projection="geoMercator" projectionConfig={{ scale: 120 }}>
+      <ComposableMap projection="geoMercator" projectionConfig={{ scale: 150 }}>
         <Geographies geography={geoUrl}>
-          {({ geographies }) =>
-            geographies.map((geo) => (
-              <Geography
-                key={geo.rsmKey}
-                geography={geo}
-                fill="var(--background)"
-                stroke="var(--border)"
-                strokeWidth={0.5}
-                style={{
-                  default: { outline: "none" },
-                  hover: { outline: "none", fill: "var(--border)" },
-                  pressed: { outline: "none" },
-                }}
-              />
-            ))
-          }
+          {({ geographies }) => {
+            const highlightedCountries = new Set(presentations.map(p => countryCodeMap[p.countryCode]).filter(Boolean));
+
+            return geographies.map((geo) => {
+              const isHighlighted = highlightedCountries.has(geo.id);
+              return (
+                <Geography
+                  key={geo.rsmKey}
+                  geography={geo}
+                  fill={isHighlighted ? "rgba(255, 255, 0, 0.3)" : "rgba(255, 255, 255, 0.1)"}
+                  stroke="#5f6368"
+                  strokeWidth={0.5}
+                  style={{
+                    default: { outline: "none" },
+                    hover: { outline: "none", fill: isHighlighted ? "rgba(255, 255, 0, 0.5)" : "rgba(255, 255, 255, 0.2)" },
+                    pressed: { outline: "none" },
+                  }}
+                />
+              );
+            });
+          }}
         </Geographies>
         {presentations.map((pres, index) => (
           pres.coordinates && (
@@ -66,7 +79,7 @@ export default function PresentationMap({ presentations }: { presentations: Pres
                 pressed: { outline: "none" },
               }}
             >
-              <circle r={6} fill="var(--primary)" stroke="#fff" strokeWidth={2} />
+              <circle r={3} fill="#FFEA00" />
             </Marker>
           )
         ))}

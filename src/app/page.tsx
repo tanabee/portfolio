@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Header profile={profile} />
       <Presentations presentations={profile.presentations} />
-      <Experience experience={profile.experience} />
+      <Experience experience={profile.experience} presentDate={new Date().toISOString()} />
       <Education education={profile.education} />
       <Skills skills={profile.skills} />
     </div>

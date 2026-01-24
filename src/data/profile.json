@@ -1,13 +1,12 @@
 {
   "name": "Yuki Tanabe",
   "socials": {
-    "website": "https://tanabee.dev",
+    "linkedin": "https://www.linkedin.com/in/tanabee/",
     "facebook": "https://www.facebook.com/tanabe1986",
     "twitter": "https://twitter.com/_tanabee",
     "github": "https://github.com/tanabee",
     "medium": "https://medium.com/@tanabee",
     "qiita": "https://qiita.com/tanabee",
-    "linkedin": "https://www.linkedin.com/in/tanabee/",
     "wantedly": "https://www.wantedly.com/users/17779552"
   },
   "experience": [
@@ -83,6 +82,11 @@
       "period": "2009-04 - 2011-03",
       "degree": "Master of Physics",
       "school": "The University of Tokyo"
+    },
+    {
+      "period": "2005-04 - 2009-03",
+      "degree": "Bachelor of Applied Physics and Physico-Informatics",
+      "school": "Keio University"
     }
   ],
   "skills": {
@@ -133,7 +137,8 @@
       "coordinates": [
         101.6869,
         3.1390
-      ]
+      ],
+      "countryCode": "MYS"
     },
     {
       "date": "2025-11-22",
@@ -141,7 +146,8 @@
       "coordinates": [
         139.6503,
         35.6762
-      ]
+      ],
+      "countryCode": "JPN"
     },
     {
       "date": "2024-11-23",
@@ -149,7 +155,8 @@
       "coordinates": [
         39.6682,
         -4.0435
-      ]
+      ],
+      "countryCode": "KEN"
     },
     {
       "date": "2024-10-05",
@@ -157,19 +164,23 @@
       "coordinates": [
         76.8512,
         43.2220
-      ]
+      ],
+      "countryCode": "KAZ"
     },
     {
       "date": "2022-12-16",
-      "title": "GDG DevFest Tokyo 2022"
+      "title": "GDG DevFest Tokyo 2022",
+      "countryCode": "JPN"
     },
     {
       "date": "2021-12-11",
-      "title": "GDG DevFest Tokyo 2021"
+      "title": "GDG DevFest Tokyo 2021",
+      "countryCode": "JPN"
     },
     {
       "date": "2020-10-18",
-      "title": "GDG DevFest Tokyo 2020"
+      "title": "GDG DevFest Tokyo 2020",
+      "countryCode": "JPN"
     },
     {
       "date": "2019-12-07",
@@ -177,7 +188,8 @@
       "coordinates": [
         49.8671,
         40.4093
-      ]
+      ],
+      "countryCode": "AZE"
     },
     {
       "date": "2019-11-23",
@@ -185,23 +197,28 @@
       "coordinates": [
         134.0466,
         34.3428
-      ]
+      ],
+      "countryCode": "JPN"
     },
     {
       "date": "2018-10-04",
-      "title": "Hosted Hands-On for Google Apps Script, took the stage as instructor"
+      "title": "Hosted Hands-On for Google Apps Script, took the stage as instructor",
+      "countryCode": "JPN"
     },
     {
       "date": "2018-09-19",
-      "title": "Gave a presentation at “Google Cloud Next ’18 in Tokyo”"
+      "title": "Gave a presentation at “Google Cloud Next ’18 in Tokyo”",
+      "countryCode": "JPN"
     },
     {
       "date": "2018-04-03",
-      "title": "Pitched at “Tokyo GAS on GCPUG 2018 Spring”"
+      "title": "Pitched at “Tokyo GAS on GCPUG 2018 Spring”",
+      "countryCode": "JPN"
     },
     {
       "date": "2014-10-18",
-      "title": "Hosted “iOS 8/Swift study session” and gave a presentation"
+      "title": "Hosted “iOS 8/Swift study session” and gave a presentation",
+      "countryCode": "JPN"
     }
   ]
 }

@@ -1,38 +1,18 @@
 :root {
-  /* Firebase/Google Material Inspired Palette */
-  --background: #f8f9fa;
-  /* Light Gray Background */
-  --surface: #ffffff;
-  /* White Surface */
-  --primary: #1a73e8;
-  /* Google Blue */
-  --primary-dark: #1557b0;
-  --text-primary: #202124;
-  /* Dark Gray */
-  --text-secondary: #5f6368;
-  /* Medium Gray */
-  --border: #dadce0;
+  /* Firebase/Google Material Inspired Palette - Dark Theme Enforced */
+  --background: #202124;
+  --surface: #292a2d;
+  --primary: #8ab4f8;
+  --primary-dark: #aecbfa;
+  --text-primary: #e8eaed;
+  --text-secondary: #9aa0a6;
+  --border: #3c4043;
 
-  --shadow-sm: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 
   --radius: 8px;
   --font-sans: var(--font-inter);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #202124;
-    --surface: #292a2d;
-    --primary: #8ab4f8;
-    --primary-dark: #aecbfa;
-    --text-primary: #e8eaed;
-    --text-secondary: #9aa0a6;
-    --border: #3c4043;
-
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
-  }
 }
 
 html,
