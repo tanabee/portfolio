@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "firebase emulators:start",
+    "kill": "lsof -i:3000 -t | xargs kill",
     "lint": "eslint"
   },
   "dependencies": {
