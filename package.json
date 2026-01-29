@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "firebase emulators:start --log-verbosity=QUIET --only hosting",
-    "kill": "lsof -i:3000,5001 -t | xargs kill",
+    "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {

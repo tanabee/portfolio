@@ -1,31 +1,9 @@
 {
-  "hosting": {
-    "source": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "frameworksBackend": {
-      "region": "asia-northeast1"
-    }
-  },
   "emulators": {
-    "hosting": {
+    "apphosting": {
+      "startCommand": "npm run dev",
+      "rootDirectory": ".",
       "port": 3000
-    },
-    "functions": {
-      "port": 5001
-    },
-    "ui": {
-      "enabled": true,
-      "port": 4020
-    },
-    "hub": {
-      "port": 4420
-    },
-    "logging": {
-      "port": 4520
     }
   }
 }
