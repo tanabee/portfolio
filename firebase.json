@@ -2,8 +2,23 @@
   "emulators": {
     "apphosting": {
       "startCommand": "npm run dev",
-      "rootDirectory": ".",
+      "rootDirectory": "./",
       "port": 3000
-    }
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  },
+  "apphosting": {
+    "backendId": "webapp",
+    "rootDir": "/",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ]
   }
 }
