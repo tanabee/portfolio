@@ -9,6 +9,12 @@
     "kill": "lsof -i:3000 -t | xargs kill",
     "lint": "eslint"
   },
+  "overrides": {
+    "react-simple-maps": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
   "dependencies": {
     "d3-scale": "^4.0.2",
     "firebase": "^12.8.0",
