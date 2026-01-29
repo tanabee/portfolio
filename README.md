@@ -1,4 +1,4 @@
-# Portfolio Site (tanabee.github.io)
+# Portfolio Site (tanabee.dev)
 
 This is a portfolio site built with [Next.js](https://nextjs.org) and [Firebase](https://firebase.google.com/).
 
@@ -33,15 +33,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `npm run dev`: Run Next.js development server directly
 - `npm run build`: Build the application
 - `npm run kill`: Kill process on port 3000 (useful if emulator hangs)
-- `npm run lint`: Run ESLint
 
 ## Tech Stack
 
 - **Framework**: Next.js 16
-- **Library**: React 19
 - **Hosting**: Firebase App Hosting
-- **Visualization**: react-simple-maps, d3-scale
-- **Icons**: react-icons
 
 ## Deploy
 
