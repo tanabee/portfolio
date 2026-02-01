@@ -13,17 +13,36 @@
   },
   "experience": [
     {
-      "period": "2022-08 - present",
-      "title": "VPoE",
-      "company": "CureApp"
+      "period": "2023-01 - present",
+      "title": "CEO",
+      "company": "monopocket",
+      "details": [
+        "Developed marketing systems for a major Japanese media company",
+        "Consulted on the establishment of a software development team at a large broadcasting service company",
+        "Delivered custom web application development projects for clients"
+      ]
     },
     {
-      "period": "2019-06 - present",
-      "title": "Google Developer Experts (Firebase, Workspace)",
+      "period": "2022-08 - present",
+      "title": "VPoE",
+      "company": "CureApp",
+      "details": [
+        "Rebuilt and restructured a software development organization",
+        "Working toward building a generative AI–driven development organization"
+      ]
+    },
+    {
+      "period": "2022-12 - present",
+      "title": "Google Developer Experts (Firebase)",
       "company": ""
     },
     {
-      "period": "2022-03 - 2022-05",
+      "period": "2019-06 - present",
+      "title": "Google Developer Experts (Workspace)",
+      "company": ""
+    },
+    {
+      "period": "2022-03 - present",
       "title": "Google for Startups Accelerator Mentor",
       "company": "",
       "details": [

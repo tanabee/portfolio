@@ -137,7 +137,7 @@ export default function Experience({ experience, presentDate = new Date().toISOS
         </div>
       )}
 
-      <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+      <div>
         {experience.map((exp, index) => {
           const isCommunityRole = exp.title.includes("Google Developer Experts") || exp.title.includes("Google for Startups");
           const color = isCommunityRole ? "#f4b400" : "var(--primary)";
