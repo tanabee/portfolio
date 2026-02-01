@@ -158,7 +158,15 @@ export default function Experience({ experience, presentDate = new Date().toISOS
               {exp.details && (
                 <ul style={{ paddingLeft: "1.2rem", margin: 0 }}>
                   {exp.details.map((detail, i) => (
-                    <li key={i} style={{ marginBottom: "0.5rem", lineHeight: "1.6", color: "var(--text-secondary)" }}>{detail}</li>
+                    <li key={i} style={{ marginBottom: "0.5rem", lineHeight: "1.6", color: "var(--text-secondary)" }}>
+                      {typeof detail === "string" ? (
+                        detail
+                      ) : (
+                        <a href={detail.url} target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", textDecoration: "underline" }}>
+                          {detail.text}
+                        </a>
+                      )}
+                    </li>
                   ))}
                 </ul>
               )}

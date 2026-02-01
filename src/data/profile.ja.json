@@ -1,0 +1,266 @@
+{
+  "name": "Yuki Tanabe",
+  "image": "/yukitanabe.jpg",
+  "contact": "https://docs.google.com/forms/d/e/1FAIpQLSdAAORnEnDIC4zsQsGHpgRtdBwRaFSfr4HT60oOKCe0zloVkA/viewform",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/tanabee/",
+    "facebook": "https://www.facebook.com/tanabe1986",
+    "twitter": "https://twitter.com/_tanabee",
+    "github": "https://github.com/tanabee",
+    "medium": "https://medium.com/@tanabee",
+    "qiita": "https://qiita.com/tanabee",
+    "wantedly": "https://www.wantedly.com/users/17779552"
+  },
+  "experience": [
+    {
+      "period": "2023-01 - present",
+      "title": "CEO",
+      "company": "monopocket",
+      "details": [
+        "日本の大手メディア企業向けのマーケティングシステムを開発",
+        "大手放送サービス企業のソフトウェア開発チーム立ち上げ支援",
+        "Web アプリケーションの請負開発など"
+      ]
+    },
+    {
+      "period": "2022-08 - present",
+      "title": "VPoE",
+      "company": "CureApp",
+      "details": [
+        "開発組織の立て直しを行った",
+        "生成 AI ドリブンな開発組織を目指している"
+      ]
+    },
+    {
+      "period": "2022-12 - present",
+      "title": "Google Developer Experts (Firebase)",
+      "company": ""
+    },
+    {
+      "period": "2019-06 - present",
+      "title": "Google Developer Experts (Workspace)",
+      "company": ""
+    },
+    {
+      "period": "2022-03 - present",
+      "title": "Google for Startups Accelerator Mentor",
+      "company": "",
+      "details": [
+        "メンターとしてGFSAプログラムに参加"
+      ]
+    },
+    {
+      "period": "2019-11 - 2022-07",
+      "title": "Vice President",
+      "company": "RPG TEC",
+      "details": [
+        "BigQuery GUI サービスの開発",
+        "名寄せアルゴリズムの開発",
+        "オンラインイベントプラットフォームの開発",
+        "ランニング計測アプリの開発",
+        "データパイプラインの構築",
+        "ライブ配信サービスの開発",
+        "ダイエット支援サービスの開発",
+        "防災備蓄品の期限管理システムの開発",
+        "マッチングサービスの開発",
+        "技術アドバイザー"
+      ]
+    },
+    {
+      "period": "2017-07 - 2019-10",
+      "title": "Engineering Manager",
+      "company": "GLOBIS",
+      "details": [
+        "社内初のスクラムマスターとしてスクラムを導入し、最終的に全てのプロダクト開発チームにスクラムを導入した",
+        "3 人目のエンジニアとして入社して採用を強化した結果、 2 年間でエンジニア 70 名規模まで成長させた",
+        {
+          "text": "社内ルーティンワーク削減プロジェクトを立ち上げ、毎月 500 時間の削減に成功",
+          "url": "https://www.itmedia.co.jp/business/articles/1811/07/news011_5.html"
+        },
+        "所属部署に OKR を導入し、目標の見える化の仕組みを作った",
+        "プロダクトオーナーとしてデータチームを立ち上げ、GCP を用いたデータパイプラインを設計した。また、他の開発チームの KPI の見える化を行った",
+        "プロダクトオーナーとして、ラーニング・プラットフォームをリリースした"
+      ]
+    },
+    {
+      "period": "2016-08 - 2017-07",
+      "title": "VR Engineer",
+      "company": "EmbodyMe",
+      "details": [
+        "創業メンバーとしてスタートアップに参画し、Oculus, HTC Vive 向けにソーシャル VR アプリケーションを開発・リリース"
+      ]
+    },
+    {
+      "period": "2012-04 - 2016-08",
+      "title": "Web Engineer / Lead iOS Engineer",
+      "company": "Yahoo! JAPAN",
+      "details": [
+        "Yahoo! MAP アプリのリニューアルプロジェクトに iOS 開発責任者として参画",
+        "女性向け SNS アプリの開発・リリース",
+        "社内タスク管理ツールの開発",
+        {
+          "text": "プライベートで 2-3 名チームを複数構成し、複数の iOS アプリを開発した。累計 100 万 DL を達成",
+          "url": "https://apps.apple.com/jp/app/id934444072"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "2009-04 - 2011-03",
+      "degree": "Master of Physics",
+      "school": "The University of Tokyo"
+    },
+    {
+      "period": "2005-04 - 2009-03",
+      "degree": "Bachelor of Applied Physics and Physico-Informatics",
+      "school": "Keio University"
+    }
+  ],
+  "skills": {
+    "licenses": [
+      {
+        "name": "Google Developers Expert",
+        "url": "https://g.dev/tanabee"
+      },
+      {
+        "name": "Licensed Scrum Master"
+      },
+      {
+        "name": "Architecting with Google Cloud Platform",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/3YH4RYBXHBU7"
+      },
+      {
+        "name": "Data Engineering on Google Cloud Platform",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/3P72E2BF34VC"
+      }
+    ],
+    "languages": [
+      "JavaScript (Web client, Node.js, Google Apps Script)",
+      "C# (Unity)",
+      "Swift",
+      "Python",
+      "Go",
+      "Objective-C",
+      "PHP"
+    ],
+    "databases": [
+      "MongoDB",
+      "MySQL",
+      "SQLite",
+      "Redis"
+    ],
+    "others": [
+      "Google Cloud Platform",
+      "Firebase",
+      "GitHub",
+      "Google Analytics",
+      "Google Tag Manager"
+    ]
+  },
+  "presentations": [
+    {
+      "date": "2025-12-06",
+      "title": "DevFest 2025 KL（ 🇲🇾マレーシア）",
+      "url": "https://gdg.community.dev/events/details/google-gdg-kuala-lumpur-presents-devfest-2025-kl-gdg-kl-x-gdg-cloud-kl/cohost-gdg-cloud-kl/",
+      "coordinates": [
+        101.6869,
+        3.1390
+      ],
+      "countryCode": "MYS"
+    },
+    {
+      "date": "2025-11-22",
+      "title": "DevFest Tokyo 2025",
+      "url": "https://gdg-tokyo.connpass.com/event/369416/",
+      "coordinates": [
+        139.6503,
+        35.6762
+      ],
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2024-11-23",
+      "title": "DevFest Pwani 2024（🇰🇪ケニア）",
+      "url": "https://gdg.community.dev/events/details/google-gdg-pwani-presents-devfest-pwani-2024/",
+      "coordinates": [
+        39.6682,
+        -4.0435
+      ],
+      "countryCode": "KEN"
+    },
+    {
+      "date": "2024-10-05",
+      "title": "DevFest Almaty 2024（🇰🇿カザフスタン）",
+      "url": "https://gdg.community.dev/events/details/google-gdg-almaty-presents-google-devfest-almaty-2024/",
+      "coordinates": [
+        76.8512,
+        43.2220
+      ],
+      "countryCode": "KAZ"
+    },
+    {
+      "date": "2024-08-01",
+      "title": "Cloud Next Tokyo ’24",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2024-07-23",
+      "title": "Google I/O Extended Tokyo 2024",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2022-12-16",
+      "title": "GDG DevFest Tokyo 2022",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2021-12-11",
+      "title": "GDG DevFest 2021",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2020-10-18",
+      "title": "GDG DevFest 2020",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2019-12-07",
+      "title": "GDG Baku 2019 （🇦🇿アゼルバイジャン）",
+      "coordinates": [
+        49.8671,
+        40.4093
+      ],
+      "countryCode": "AZE"
+    },
+    {
+      "date": "2019-11-23",
+      "title": "DevFest 四国 2019",
+      "coordinates": [
+        134.0466,
+        34.3428
+      ],
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2018-10-04",
+      "title": "Google Apps Script ハンズオンを主催",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2018-09-19",
+      "title": "Google Cloud Next ’18 in Tokyo",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2018-04-03",
+      "title": "Tokyo GAS on GCPUG 2018 Spring",
+      "countryCode": "JPN"
+    },
+    {
+      "date": "2014-10-18",
+      "title": "iOS 8/Swift study session @Yahoo を主催",
+      "countryCode": "JPN"
+    }
+  ]
+}

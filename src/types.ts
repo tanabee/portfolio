@@ -22,7 +22,7 @@ export interface Experience {
   period: string;
   title: string;
   company: string;
-  details?: string[];
+  details?: (string | { text: string; url: string })[];
 }
 
 export interface Education {

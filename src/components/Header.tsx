@@ -1,6 +1,7 @@
 import { Profile } from "@/types";
 import { FaGlobe, FaFacebook, FaTwitter, FaGithub, FaMedium, FaLinkedin } from "react-icons/fa";
 import { SiQiita, SiWantedly } from "react-icons/si";
+import { useLanguage } from "@/context/LanguageContext";
 
 const iconMap: { [key: string]: React.ReactNode } = {
   website: <FaGlobe />,
@@ -14,29 +15,53 @@ const iconMap: { [key: string]: React.ReactNode } = {
 };
 
 export default function Header({ profile }: { profile: Profile }) {
+  const { language, toggleLanguage } = useLanguage();
+
   return (
     <header className="section" style={{ padding: "4rem 0", display: "flex", alignItems: "center", gap: "2rem", position: "relative" }}>
-      {profile.contact && (
-        <a
-          href={profile.contact}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-          style={{
-            position: "absolute",
-            top: "0",
-            right: "0",
-            gap: "0.5rem",
-            background: "transparent",
-            color: "var(--text-secondary)",
-            border: "1px solid var(--border)",
-            padding: "0.5rem 1rem",
-            fontSize: "0.9rem"
-          }}
-        >
-          Contact me
-        </a>
-      )}
+      <div style={{ position: "absolute", top: "0", right: "0", display: "flex", gap: "1rem" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.9rem", fontWeight: "600" }}>
+          <span
+            onClick={() => language !== "en" && toggleLanguage()}
+            style={{
+              color: language === "en" ? "#f4b400" : "var(--text-secondary)",
+              cursor: language === "en" ? "default" : "pointer",
+              transition: "color 0.2s"
+            }}
+          >
+            EN
+          </span>
+          <span style={{ color: "var(--text-secondary)", opacity: 0.5 }}>/</span>
+          <span
+            onClick={() => language !== "ja" && toggleLanguage()}
+            style={{
+              color: language === "ja" ? "#f4b400" : "var(--text-secondary)",
+              cursor: language === "ja" ? "default" : "pointer",
+              transition: "color 0.2s"
+            }}
+          >
+            JA
+          </span>
+        </div>
+        {profile.contact && (
+          <a
+            href={profile.contact}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+            style={{
+              gap: "0.5rem",
+              background: "transparent",
+              color: "var(--text-secondary)",
+              border: "1px solid var(--border)",
+              padding: "0.5rem 1rem",
+              fontSize: "0.9rem"
+            }}
+          >
+            Contact me
+          </a>
+        )}
+      </div>
       {profile.image && (
         <img
           src={profile.image}
