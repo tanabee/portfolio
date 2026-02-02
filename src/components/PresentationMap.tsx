@@ -24,11 +24,11 @@ export default function PresentationMap({ presentations }: { presentations: Pres
   }, []);
 
   if (!isMounted) {
-    return <div style={{ width: "100%", height: "400px", marginBottom: "2rem", background: "var(--surface)", borderRadius: "var(--radius)", border: "1px solid var(--border)" }} />;
+    return <div style={{ width: "100%", aspectRatio: "2/1", marginBottom: "2rem", background: "var(--surface)", borderRadius: "var(--radius)", border: "1px solid var(--border)" }} />;
   }
 
   return (
-    <div style={{ width: "100%", height: "400px", marginBottom: "2rem", background: "var(--surface)", borderRadius: "var(--radius)", border: "1px solid var(--border)", overflow: "hidden", position: "relative" }}>
+    <div style={{ width: "100%", aspectRatio: "2/1", marginBottom: "2rem", background: "var(--surface)", borderRadius: "var(--radius)", border: "1px solid var(--border)", overflow: "hidden", position: "relative" }}>
       <ComposableMap projection="geoMercator" projectionConfig={{ scale: 150 }}>
         <Geographies geography={geoUrl}>
           {({ geographies }) => {
